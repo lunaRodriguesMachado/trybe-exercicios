@@ -1,5 +1,12 @@
 h1 {
     text-align: center;
+    margin: auto;
+    font-size: 40px;
+  }
+
+  .podium li {
+    list-style: none;  
+    display: inline-block;
   }
 
   .first {
@@ -8,6 +15,7 @@ h1 {
     height: 50px;
     text-align: center;
     width: 200px;
+    margin-left: 42%;
   }
 
   .second {
@@ -16,6 +24,7 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
+    margin-left: 28%;
   }
 
   .third {
@@ -24,4 +33,12 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
+  }
+
+  .premiacao {
+    text-align: center;
+  }
+
+  .premiacao ul {
+    list-style: none;
   }
