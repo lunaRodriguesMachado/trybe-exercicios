@@ -1,4 +1,4 @@
-let porcentagem = 40;
+let porcentagem;
 let notaAluno;
 
 if (porcentagem >= 90 && porcentagem <= 100) {
