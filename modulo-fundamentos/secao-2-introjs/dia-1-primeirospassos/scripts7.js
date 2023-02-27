@@ -9,6 +9,8 @@ if (porcentagem >= 90 && porcentagem <= 100) {
     console.log('A nota do aluno é ' + notaAluno);
 } else if (porcentagem >= 70 && porcentagem < 80) {
     notaAluno = 'C';
+
+    
     console.log('A nota do aluno é ' + notaAluno);
 } else if (porcentagem >= 60 && porcentagem < 70) {
     notaAluno = 'D';
