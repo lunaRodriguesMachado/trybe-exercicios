@@ -33,4 +33,10 @@ if (meanNumbers > 20) {
 } else {
     console.log('Valor da média menor ou igual a 20');
 }
-console.log('O menor número é: ' + lowestNumber)
+console.log('O menor número é: ' + lowestNumber);
+
+let oneToTwentyFive = [];
+for (let pushNumbers = 1; pushNumbers <= 25; pushNumbers += 1) {
+    oneToTwentyFive.push(pushNumbers);
+}
+console.log(oneToTwentyFive);
