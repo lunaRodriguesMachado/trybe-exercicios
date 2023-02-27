@@ -40,3 +40,8 @@ for (let pushNumbers = 1; pushNumbers <= 25; pushNumbers += 1) {
     oneToTwentyFive.push(pushNumbers);
 }
 console.log(oneToTwentyFive);
+
+for (let index2 = 0; index2 < oneToTwentyFive.length; index2 += 1) {
+    let divideTwo = oneToTwentyFive[index2] / 2;
+    console.log('O resultado da divisão de ' + oneToTwentyFive[index2] + ' por 2 é: ' + divideTwo);
+}
