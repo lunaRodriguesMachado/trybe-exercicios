@@ -3,6 +3,7 @@ let sumNumbers = 0;
 let meanNumbers = 0;
 let highestNumber = 0;
 let oddNumbers = 0;
+let lowestNumber = 646854865498465;
 
 for (let index = 0; index < numbers.length; index += 1) {
     console.log(numbers[index]);
@@ -12,6 +13,9 @@ for (let index = 0; index < numbers.length; index += 1) {
     }
     if (numbers[index] % 2 !== 0) {
         oddNumbers = oddNumbers += 1;
+    }
+    if (numbers[index] < lowestNumber) {
+        lowestNumber = numbers[index];
     }
 }
 
@@ -24,9 +28,9 @@ if (oddNumbers === 0) {
 } else {
     console.log('Existem ao todo ' + oddNumbers + ' números ímpares no array')
 }
-
 if (meanNumbers > 20) {
     console.log('Valor da média maior que 20');
 } else {
     console.log('Valor da média menor ou igual a 20');
 }
+console.log('O menor número é: ' + lowestNumber)
