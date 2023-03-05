@@ -1,0 +1,16 @@
+const headerStyle = document.getElementById("header-container");
+headerStyle.style.backgroundColor = "rgb(106, 204, 106)";
+const secColor1 = document.querySelector(".emergency-tasks");
+secColor1.style.backgroundColor = "rgb(255, 160, 160)";
+const secTitleUrgent1 = document.querySelectorAll(".emergency-tasks h3")[0];
+const secTitleUrgent2 = document.querySelectorAll(".emergency-tasks h3")[1];
+secTitleUrgent1.style.backgroundColor = "rgb(138, 43, 226)";
+secTitleUrgent2.style.backgroundColor = "rgb(138, 43, 226)";
+const secColor2 = document.getElementsByClassName("no-emergency-tasks")[0];
+secColor2.style.backgroundColor = "rgb(255, 255, 79)";
+const secTitleNonUrgent1 = document.querySelectorAll(".no-emergency-tasks h3")[0];
+secTitleNonUrgent1.style.backgroundColor = "rgb(0, 0, 0)";
+const secTitleNonUrgent2 = document.querySelectorAll(".no-emergency-tasks h3")[1];
+secTitleNonUrgent2.style.backgroundColor = "rgb(0, 0, 0)";
+const footerStyle = document.getElementsByTagName("footer")[0];
+footerStyle.style.backgroundColor = "rgb(6, 63, 54)";
