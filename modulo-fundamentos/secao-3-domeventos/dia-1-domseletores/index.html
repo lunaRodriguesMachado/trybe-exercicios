@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragrafo">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragrafo">Segundo parágrafo!</p>
+    </header>
+    <script>
+        document.getElementById("page-title").innerHTML = "Carros"
+        const paragraph = document.getElementById("paragraph");
+        paragraph.style.color = "purple";
+        document.getElementById("subtitle").innerHTML = "Filme muito zika"
+        document.getElementById("second-paragraph").innerHTML = "Melhor filme da Pixar, quem discordar é clubista!"
+        const paragrafo = document.getElementsByClassName("paragrafo")[0]
+        paragrafo.style.backgroundColor = "lightblue"
+        const subtitulo = document.getElementsByTagName("h4")[0];
+        subtitulo.style.fontSize = "20px"
+    </script>
+  </body>
+</html>
